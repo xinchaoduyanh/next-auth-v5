@@ -1,9 +1,6 @@
-"use client";
 import React, { useEffect } from "react";
+import LoginForm from "../login-form";
 
-export default function Loginpage() {
-  useEffect(() => {
-    console.log("login page");
-  }, []);
-  return <div>Login</div>;
+export default function LoginPage() {
+  return <LoginForm />;
 }
